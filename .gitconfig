@@ -1,0 +1,21 @@
+[user]
+	name = Koen Vossen
+	email = koen.vossen@gmail.com
+[alias]
+	unstage = reset HEAD
+	nicelog = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	publish = !git push --set-upstream ${1-origin} HEAD
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+
+[core]
+	excludesfile = ~/.gitignore
+
+[push]
+        default = simple
+
+[rebase]
+	autosquash = true

@@ -1,0 +1,5 @@
+!.gitignore
+*.py[co]
+__pycache__/
+*.[ao]
+*.so
